@@ -1,0 +1,26 @@
+.button {
+    /* width: 100%; */
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid rgb(255, 145, 0);
+    color: black;
+    background: rgb(255, 145, 0);
+    box-shadow: 0 0 4px rgba(0, 2, 0, 0.26);
+    cursor: pointer;
+    border-radius: 2%;
+    float: left;
+    margin-left: 35%;
+    margin-top: 1.5%;
+    width: 30%;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: rgb(255, 189, 103);
+    border-color: rgb(255, 189, 103);
+    box-shadow: 0 0 8px rgba(0, 2, 0, 0.26);
+  }
